@@ -16,7 +16,6 @@ const movieSchema = new mongoose.Schema({
     type: [String],
     required: true,
   },
-  languages: [String],
   rating: {
     type: Number,
     min: 0,
